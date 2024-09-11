@@ -98,13 +98,4 @@ This program generates invoices for e-commerce orders using React. It allows use
    - When the "Generate Invoice" button is clicked, the invoice is converted to a PDF using `html2canvas` and `jsPDF`.
    - The generated PDF can be downloaded directly by the user.
 
-## **Error Handling**
-- Validates all required fields, ensuring no field is left empty.
-- If a discount is not provided for an item, it defaults to zero.
-- Graceful handling of errors during the PDF generation process.
-
-## **Performance and Scalability**
-- Efficiently handles multiple items within the invoice.
-- Can be extended to handle larger orders and multiple sellers.
-- Designed to be easily integrated into any React-based e-commerce platform.
 
